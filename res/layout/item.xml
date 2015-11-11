@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:weightSum="10"
+              android:background="@android:color/white"
+              android:layout_gravity="center"
+              android:padding="10dp"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/name"
+        android:text="夏小力"
+        android:layout_weight="2"
+        android:layout_gravity="center"
+        android:textSize="15sp"
+        android:layout_width="0.0dp"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="1.0dp"
+        android:background="@android:color/darker_gray"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tag"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="8"
+        android:text="B7:67:BA:F6"
+        android:layout_gravity="center"
+        android:textSize="10sp"
+        android:layout_marginRight="5dp"
+        android:layout_width="0.0dp"
+        android:layout_height="wrap_content" />
+</LinearLayout>
